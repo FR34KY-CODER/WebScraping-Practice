@@ -110,6 +110,8 @@ tag['href']
 * `.next_sibling` / `.previous_sibling`: Navigate to adjacent nodes.
 * `.next_element` / `.previous_element`: Next element in the tree, even if not a sibling.
 
+![alt text](image-2.png)
+
 ---
 
 ## Modifying the Tree:
@@ -202,8 +204,6 @@ WebDriverWait(driver, 10).until(
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(driver.page_source, "html.parser")
 ```
-
-![alt text](image-2.png)
 
 ---
 
